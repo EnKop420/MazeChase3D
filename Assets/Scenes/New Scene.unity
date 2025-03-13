@@ -8848,6 +8848,10 @@ PrefabInstance:
       value: 2329772183
       objectReference: {fileID: 0}
     - target: {fileID: 8248822319973288321, guid: 2333f0d8c2ebcd14295a23692673ccbc, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8248822319973288321, guid: 2333f0d8c2ebcd14295a23692673ccbc, type: 3}
       propertyPath: AuthorityMode
       value: 0
       objectReference: {fileID: 0}
