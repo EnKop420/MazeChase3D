@@ -105,4 +105,14 @@ public class EnemyAI : NetworkBehaviour
             currentState = EnemyState.Patrolling;
         }
     }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            Debug.Log("Player collided with enemy");
+            Application.Quit();
+        }
+    }
 }
+
